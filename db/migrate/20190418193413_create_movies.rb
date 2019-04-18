@@ -8,5 +8,6 @@ class CreateMovies < ActiveRecord::Migration[5.2]
       c.boolean :in_theaters
 
       c.timestamps null: false
+    end
   end
 end
